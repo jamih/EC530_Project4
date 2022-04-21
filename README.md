@@ -9,7 +9,7 @@
 
 ### Description
 
-This project integrates conversion of audio files to text into a queue system.
+This project integrates conversion of audio files to text and live speech to text into a queue system.
 In the repo, there is an audio file in which a person says "I believe you're just talking nonsense."
 
 
