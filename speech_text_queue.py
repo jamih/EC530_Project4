@@ -38,14 +38,6 @@ for item in range(2):
     print(r.recognize_google(audio))
     q.put(item)
 
-
-# print('Start speaking. ')
-# with mic as source:
-#     audio = r.listen(source)
-# print('End.')
-# print('Text is ...')
-# print(r.recognize_google(audio))
-
 # Block until all tasks are done.
 q.join()
 print('All work completed')
@@ -54,14 +46,3 @@ print('All work completed')
 
 
 
-# import speech_recognition as sr
-
-# r = sr.Recognizer()
-# mic = sr.Microphone()
-
-# print('Start speaking. ')
-# with mic as source:
-#     audio = r.listen(source)
-# print('End.')
-# print('Text is ...')
-# print(r.recognize_google(audio))
